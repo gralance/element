@@ -8,6 +8,7 @@
     <title>Element</title>
   </head>
   <body>
+    <script src="https://unpkg.com/babel-polyfill@6.26.0/dist/polyfill.min.js"></script>
     <div id="app"></div><% if (process.env.NODE_ENV === 'production') { %>
     <script>
       if (!window.Promise) {
