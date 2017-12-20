@@ -76,7 +76,7 @@
   @include e(closeBtn) {
     position: absolute;
     top: 50%;
-    right: 15px;
+    right: 5px;
     transform: translateY(-50%);
     cursor: pointer;
     color: $--message-close-color;
